@@ -1,1 +1,3 @@
-console.log('HeliAltitude ready');
+
+import App from './App'
+document.getElementById('root').innerHTML=App()
