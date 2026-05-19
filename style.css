@@ -1,0 +1,16 @@
+
+body{margin:0;font-family:Arial;background:#111;color:#fff}
+.header{display:flex;justify-content:space-between;padding:20px 40px;background:#000}
+.logo span,.active{color:#ff6200}
+nav a{margin:0 10px}
+button,.cta{background:#ff6200;color:#fff;padding:12px 20px;border-radius:8px;border:none;text-decoration:none}
+.hero{
+height:700px;
+background:linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.45)),url('hero-reference.png');
+background-size:cover;background-position:center;
+display:flex;align-items:center;padding-left:80px}
+.hero span{color:#ff6200}
+.hero h1{font-size:65px}
+.cards{display:flex;gap:20px;padding:60px}
+.card{flex:1;background:#000;padding:50px;border-radius:18px;border:1px solid #333}
+footer{text-align:center;padding:40px;background:#000}
